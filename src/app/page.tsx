@@ -32,7 +32,7 @@ const validationSchema = z.object({
 });
 type ValidationForm = z.infer<typeof validationSchema>;
 
-const PHONE_NUMBER = "0690876864";
+const PHONE_NUMBER = "0673624688";
 
 function sanitizePdfText(text: string) {
   return text.replace(/[\u202F\u00A0]/g, " ").replace(/[^\x00-\x7F]/g, "");
@@ -400,7 +400,7 @@ const Home = () => {
       }
 
       // Draw header texts
-      page.drawText("Redwane Elhnidi Aluminium et Verre", {
+      page.drawText("Khalid Elhnidi Aluminium et Verre", {
         x: marginX,
         y: pageHeight - marginTop,
         size: 20,
